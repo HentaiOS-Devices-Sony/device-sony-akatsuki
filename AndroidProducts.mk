@@ -12,12 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_h8416.mk \
-                     $(LOCAL_DIR)/aosp_h9436.mk
+PRODUCT_MAKEFILES := \
+	$(LOCAL_DIR)/hentai_akatsuki_RoW.mk \
+	$(LOCAL_DIR)/hentai_akatsuki_DSDS.mk
 
 COMMON_LUNCH_CHOICES += \
-    aosp_h8416-eng \
-    aosp_h8416-userdebug \
-    aosp_h9436-eng \
-    aosp_h9436-userdebug
-
+  hentai_akatsuki_RoW-eng \
+  hentai_akatsuki_RoW-userdebug \
+  hentai_akatsuki_RoW-user \
+	hentai_akatsuki_DSDS-eng \
+	hentai_akatsuki_DSDS-userdebug \
+	hentai_akatsuki_DSDS-user
