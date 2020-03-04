@@ -14,12 +14,20 @@
 
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/hentai_akatsuki_RoW.mk \
-	$(LOCAL_DIR)/hentai_akatsuki_DSDS.mk
+	$(LOCAL_DIR)/hentai_akatsuki_DSDS.mk \
+	$(LOCAL_DIR)/hentai_akatsuki_RoW_Go.mk \
+	$(LOCAL_DIR)/hentai_akatsuki_DSDS_Go.mk \
 
 COMMON_LUNCH_CHOICES += \
   hentai_akatsuki_RoW-eng \
   hentai_akatsuki_RoW-userdebug \
   hentai_akatsuki_RoW-user \
-	hentai_akatsuki_DSDS-eng \
-	hentai_akatsuki_DSDS-userdebug \
-	hentai_akatsuki_DSDS-user
+  hentai_akatsuki_DSDS-eng \
+  hentai_akatsuki_DSDS-userdebug \
+  hentai_akatsuki_DSDS-user \
+  hentai_akatsuki_RoW_Go-eng \
+  hentai_akatsuki_RoW_Go-userdebug \
+  hentai_akatsuki_RoW_Go-user \
+  hentai_akatsuki_DSDS_Go-eng \
+  hentai_akatsuki_DSDS_Go-userdebug \
+  hentai_akatsuki_DSDS_Go-user \
